@@ -1,0 +1,84 @@
+body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    height: 100dvh;
+    width: 100dvw;
+    background-image: url('/Images/wave-haikei.svg ');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    > .header{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 80px;
+        > .Logo{
+            padding: 40px;
+            padding-top: 32px;
+            font-weight: bold;
+                font-family: 'Poppins';
+                font-size: 25px;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 20px;
+            padding-right: 150px;
+            li{
+                padding: 20px;
+                font-weight: bold;
+                font-family: 'Poppins';
+                font-size: 20px;
+                color: grey;
+            }
+        }
+    }
+    > .portfolio{
+        
+        width: fit-content;
+        margin-top: 20px;
+        margin-left: 100px;
+        > .port-text{
+            > p:nth-child(1){
+                color: #7A00D2;
+                font-size: 40px;
+                font-weight: bold;
+                font-family: 'Poppins';
+                position: relative;
+            }
+            > p:nth-child(1)::after{
+                content: '';
+                position: absolute;
+                width: 50px;
+                height: 4px;
+                background-color: #1E015D;
+                left: 0;
+                bottom: 0;
+            }
+            > p:nth-child(2){
+                padding: 20px;
+                padding-left: 0;
+                font-size: 17px;
+                font-family: 'Poppins';
+                width: 30em;
+            }
+        }
+        
+        >button{
+            padding: 15px;
+            font-family: 'Poppins';
+            color: white;
+            border-radius: 25px;
+            border: none;
+            background-color: #1E015D;
+        }
+    }
+    > img{
+        position: absolute;
+        transform: scaleX(-1) translate(-860px,-450px);
+    }
+}
