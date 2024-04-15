@@ -6,7 +6,7 @@ body{
 .bg{
     height: 100dvh;
     width: 100dvw;
-    background-image: url('./Images/wave-haikei.svg ');
+    background-image: url('Images/wave-haikei.svg ');
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 500px;
