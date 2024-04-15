@@ -23,7 +23,7 @@ for(let i = 0 ; i < main.length; i++){
         if(i == 0){
             container.style.backgroundColor = "#EDD0C0";
             target.style.backgroundImage  = 'url("./Images/symposium.jpg")';
-            Sound("The Symposium - The Physical Attractions.mp3");
+            Sound("Symposium.mp3");
             divi.querySelector(".active").classList.remove("active");
             main[i].classList.add("active");
         }
